@@ -51,8 +51,8 @@ ul li {
     padding: 10px;
 
 } 
-ul li :hover{
-    color: grey;
+ul li a:hover{
+    color:blue;
 }
 
 
@@ -76,7 +76,7 @@ ul li :hover{
 }
 .but button:hover{
     background-color:grey;
-    
+    y
 }
 .price1 h3{
 font-size: 30px;
@@ -85,12 +85,12 @@ font-size: 30px;
 font-size: 30px;
 }
 
-
+/* 
 .food {
 font-size:25px;
 color:yellow;
 padding-top: 5px;
-}
+} */
 
 .wrow{
     background-color: rgb(121, 115, 115);
@@ -652,12 +652,49 @@ margin-top: 50px;
     
 }
 .world{
-   
+   margin-bottom: 15px;
   font-size: 40px;
    
 }
 .fol{
     padding-top:  20px;
+}
+.footer h3:hover {
+    color:rgb(0, 0, 128);
+ }
+  .gift h3:hover{
+    color: blue;
+}
+   .colums h3:hover{
+    color:rgb(28, 5, 207);
+
+}
+   .world h3:hover{
+    color:green;
+
+}
+   .world h4:hover{
+    color:green;
+
+}
+ .gift p:hover{
+    color:green;
+
+}
+.footer-title p:hover{
+    color:green;
+
+}
+  .colums p:hover{
+    color:green;
+
+}
+ .world p:hover{
+    color:green;
+
+}
+ .fol:hover{
+    color:green;
 }
 
 
@@ -672,7 +709,8 @@ margin-top: 50px;
 
     .header {
         width: 100%;
-    }
+        height: 50px;
+    } 
 
     .but button{
         display: none;
@@ -681,17 +719,14 @@ margin-top: 50px;
     ul li a{
         font-size: 18px;
     }
+ .dropdown ul{
+ 
+    font-size: 10px;
+ }
 
-    .dropdown ul{
-        display: none; 
-    
-    }
-
-
-    
    .dropdown{
     display: block;
- 
+    display: none;
    }
        
         
@@ -750,27 +785,25 @@ margin-top: 50px;
         display: grid;
         grid-template-columns: 400px;
     }
-  
-
-.footer-title h3:hover{
-    color: gray
+   .footer-title h3:hover {
+    color: gray;
+ }
+  .gift h3:hover{
+    color: gray;
 }
-.gift h3:hover{
-    color: gray
-}
-.colums h3:hover{
-    color: gray
+   .colums h3:hover{
+    color: gray;
 
 }
-.world h3:hover{
-    color: gray
+   .world h3:hover{
+    color: gray;
 
 }
-.world h4:hover{
-    color:gray
+   .world h4:hover{
+    color:green;
 
 }
-.gift p:hover{
+ .gift p:hover{
     color: gray;
 
 }
@@ -778,15 +811,15 @@ margin-top: 50px;
     color: gray;
 
 }
-.colums p:hover{
+  .colums p:hover{
     color: gray;
 
 }
-.world p:hover{
+ .world p:hover{
     color: gray;
 
 }
-.fol:hover{
+ .fol:hover{
     color: gray;
 }
 
